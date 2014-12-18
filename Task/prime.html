@@ -1,0 +1,53 @@
+<html>
+<style>
+#marquee{
+	top:0px;
+	left:0px;
+	position: fixed;
+	background: #f6f6ff;
+	float: left;
+	width:89%;
+
+}
+#back{
+	position: fixed;
+	right:0px;
+	top:0px;
+	background: #f6f6ff;
+	float:right;
+	width:11%;
+}
+#no{
+	margin-top: 55px;
+	background: lightgray;
+}
+</style>
+<title>prime</title>
+</head>
+<body>
+<div id="marquee">
+	<marquee><font color="red" size="36">
+	Prime Numbers from 1 to 100</font></marquee>
+	</div>
+<div id="back">
+<a href="../Task.html"><img src="img/back2.jpg" width="104px"></a>
+</div>
+<div id="no">
+<script>
+var a=1;
+var flag;
+for(var i=1; i<=100; i++)	
+{
+	flag=0;
+	for (var j=2; j<=i/2;j++)
+	{
+		if(i%j==0)
+			flag=1;
+	}
+	if (flag==0)
+		document.write(i+", ");
+}
+</script>
+</div>
+</body>
+</html>
