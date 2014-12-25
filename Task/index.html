@@ -1,10 +1,15 @@
 <html>
 <head>
+<link rel="stylesheet" href="project/assets/CSS/bootstrap.min.css">
+<script src="project/assets/Js/jquery.min.js"></script>
+<script src="project/assets/Js/bootstrap.min.js"></script>
+
 <style>
 body{
 	background-color:F0F2F2;
 	font-family: "Times New Roman";
-	font-size: 20;
+	font-size: 14pt;
+	font-weight: bolder;
 }
 p{
 	font-family: "Times New Roman";
@@ -18,15 +23,6 @@ width:62%;
 float: left;
 height: 310px;
 }
-#start{
-	left:0px;
-	right: 0px;
-	width: 98%;
-	position: fixed;
-	background-color: #f6f6ff;
-	top:0px;
-	border-bottom: 2px solid gray;
-}
 #msg{
 	background-color: lightgrey;
 width:33%;
@@ -34,30 +30,14 @@ float: right;
 margin-right: 30px;
 height: 310px;
 }
-#divnav{
-	margin-top: 40px;
-	float:right;
-	margin-bottom: 10px;
-	width:60%;
-}
 
 #java{
 	margin-top: 30px;
 	margin-bottom: 30px;
 	margin-left:80px;
 }
-
-#logo{
-	width:30%;
-
-	margin-top: 30px;
-	margin-bottom: 10px;
-	margin-left:40px;
-	float: left;
-
-}
 #im{
-	margin-top: 115px;
+	margin-top: 80px;
 }
 #b{
 	margin-top: 60px;
@@ -88,12 +68,24 @@ height: 310px;
 #blu{
 	color:blue;
 }
+#fix{
+	width:100%;
+	position: fixed;
+	top: 0px;
+}
+/*div{
+	border:1px solid black;
+}*/
 #divfoot{
-	margin-top: 50px;
-	background-color:grey;
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-bottom: 40px;
+	width: 100%;
+	background-color: black;
+	position: absolute;
+	left: 0px; 
+}
+#foot{
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-bottom: 10px;
 }
 #spn{
 	width:33%;
@@ -111,7 +103,7 @@ height: 310px;
 }
 
 #back{
-	margin-top: 30px;
+	margin-top: 70px;
 	position: fixed;
 	right:0px;
 	float:right;
@@ -119,29 +111,39 @@ height: 310px;
 	}
 
 </style>	
-</head>
+</head> 
 <body>
-<div id="start">
- <div id="logo">
- <img src="img/logo1.png"/>
- </div>
- 
- <cetrer><div id="divnav">
- 	<b>
-		<a href="#">Home</a>&nbsp
-		<a href="php.html">PHP</a>&nbsp
-		<a href="asp.html">ASP.net</a>&nbsp
-		<a href="mega.html">Mega Scholarship</a>&nbsp
-		<a href="Event.html">News & Event</a></b>
-	</div></cetrer>
-	<div id="back">
-<a href="../Task.html"><img src="img/back2.jpg" width="104px"></a>
+<div id="fix">
+ <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand active" href="#"><img src="img/logo1.png" height="30px"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+         <li ><a href="project/index.html"><b>Home</b></a></li>
+        <li ><a href="project/terms.html"><b>Terms & Conditions</b></a></li>
+        <li><a href="project/pro.html"><b>Procces of accceptance</b></a></li>
+        <li><a href="project/feature.html"><b>Features</b></a></li>
+        <li ><a href="project/feedback.html"><b>Feedback </b></a></li>
+        <li ><a href="project/test.html"><b>Test Yourself</b> </a></li>
+        <li ><a href="project/Event.html"><b>News & Events</b> </a></li>
+        <li><a href="../Task.html"><img src="img/back-icon.png" width="25px"></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 </div>
 	</div>
- <center><img id="im" src="img/exp.jpg" width="989px"/></center>
+ <center><img id="im" src="img/exp.jpg" width="1250px" class="img-responsive"/></center>
 	
 <div id="java">
- <center><img src="img/Capture.JPG" /></center>
+ <center><img src="img/Capture.JPG" class="img-responsive" /></center>
  </div>	
 <div id="divbody">
 
@@ -189,14 +191,16 @@ CEO, Experts Training</p>
 		
 		</div></center>
 	
-
-<div id="divfoot">
-<p>Omkar Building, 7th Floor,<br>
-New Baneshwor, Kathmandu, Nepal<br>
-Phone: 977 1 4785677<br>
-Email: info@expertstraining.com<br>
-&copy Copyright 2013-2014 | Experts Training</p>
-</div>
+<div style="clear:both"></div>
+			
+		<div id="divfoot">
+				<p id="foot"><font color="white" size="4px">Omkar Building, 7th Floor,<br>
+				New Baneshwor, Kathmandu, Nepal<br>
+				Phone: 977 1 4785677<br>
+				Email: info@expertstraining.com<br>
+				&copy Copyright 2013-2014 | Experts Training</font></p>
+				</div>
+			</div>
 
 </body>
 </html>

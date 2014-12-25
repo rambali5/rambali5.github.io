@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="assets/CSS/bootstrap.min.css">
+<script src="assets/Js/jquery.min.js"></script>
+<script src="assets/Js/bootstrap.min.js"></script>
+<script>
+
+function notEmpty()
+ {
+  var score=0;
+
+  for(var i=1;i<=20;i++)
+  {
+   //score+=parseInt(document.getElementById('r1').selected.value)
+   var id="r"+i;
+   if(document.getElementById(id).checked)
+    score++;
+ }
+  if(score>=10)
+    alert('Congratulation!!! Your Score is: '+score);
+  else
+    alert('Sorry!!! Your Score is: '+score);
+}
+	
+</script>
+
+<style>
+#body{
+	margin-top: 50px;
+	float:left;
+	width:100%;
+	margin-right: 0px;
+  font-size: 12pt;
+  font-weight: bolder;
+}
+#fix{
+	width:100%;
+	position: fixed;
+	top: 0px;
+}
+/*div{
+	border:1px solid black;
+}*/
+#divfoot{
+	width: 100%;
+	background-color: black;
+	position: absolute;
+	left: 0px; 
+}
+#for{
+		font-weight: bolder;
+}
+#foot{
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-bottom: 10px;
+}
+td{
+	text-align: center;
+}
+
+</style>
+<link rel="stylesheet" href="assets/CSS/bootstrap.min.css">
+<script src="assets/Js/jquery.min.js"></script>
+<script src="assets/Js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div id="fix">
+ <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+     <a class="navbar-brand" href="../index.html"><img src="img/logo1.png" height="30px"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+         <li ><a href="index.html"><b>Home</b></a></li>
+        <li ><a href="terms.html"><b>Terms & Conditions</b></a></li>
+        <li><a href="pro.html"><b>Procces of accceptance</b></a></li>
+        <li><a href="feature.html"><b>Features</b></a></li>
+        <li ><a href="feedback.html"><b>Feedback </b></a></li>
+        <li class="active"><a href="#"><b>Test Yourself</b> </a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</div>
+    <div id="body">
+        <div class="container">
+        	<div class="jumbotron">
+        	Full Marks:20<br>
+        	Pass Marks:10<br>	
+        	Time: 30 min<br>				
+        	<ol>
+<h3>Math</h3>
+  <li>The sum of ages of 5 children born at the intervals of 3 years each is 50 years. What is the age of the youngest child? </li>
+        	<table width="35%" >
+        	<tr>
+        	<td>a. 4 years</td>
+        	<td> <input type="radio" name="r1" id="r1"   ></td>
+        	<td>b. 8 years </td>
+        	<td> <input type="radio" name="r1"  ></td>
+        	</tr>
+        	<tr>
+        	<td>c. 10 years </td>
+        	<td> <input type="radio" name="r1"  ></td>
+           	<td>d. None </td>
+           	<td><input type="radio" name="r1"  ></td>
+           	</tr>
+           	</table ><br><br>
+	<li>A father said to his son, "I was as old as you are at the present at the time of your birth". If the father's age is 38 years now, the son's age five years back was: </li>
+			<table width="35%">
+        	<tr>
+        	<td>a. 14 years</td>
+        	<td> <input type="radio" name="r2" id="r2"  ></td>
+        	<td>b. 38 years </td>
+        	<td> <input type="radio" name="r2"  ></td>
+        	</tr>
+        	<tr>
+        	<td>c. 19 years </td>
+        	<td> <input type="radio" name="r2"  ></td>
+           	<td>d. 33 years </td>
+           	<td><input type="radio" name="r2"  ></td>
+           	</tr>
+           	</table ><br><br>
+  <li> A, B and C can do a piece of work in 20, 30 and 60 days respectively. In how many days can A do the work if he is assisted by B and C on every third day?  </li>
+			<table width="35%">
+        	<tr>
+        	<td>a. 12 days</td>
+        	<td> <input type="radio" name="r3"   ></td>
+        	<td>b. 15 days </td>
+        	<td> <input type="radio" name="r3" id="r3"  ></td>
+        	</tr>
+        	<tr>
+        	<td>c. 16 days </td>
+        	<td> <input type="radio" name="r3"  ></td>
+           	<td>d. 18 days </td>
+           	<td><input type="radio" name="r3"  ></td>
+           	</tr>
+           	</table ><br><br>
+  <li>A alone can do a piece of work in 6 days and B alone in 8 days. A and B undertook to do it for Rs. 3200. With the help of C, they completed the work in 3 days. How much is to be paid to C?</li>
+           	<table width="35%">
+        	<tr>
+        	<td>a. Rs. 375</td>
+        	<td> <input type="radio" name="r4"   ></td>
+        	<td>b. Rs. 400 </td>
+        	<td> <input type="radio" name="r4" id="r4"  ></td>
+        	</tr>
+        	<tr>
+        	<td>c. Rs. 600 </td>
+        	<td> <input type="radio" name="r4"   ></td>
+           	<td>d. Rs. 800 </td>
+           	<td><input type="radio" name="r4"  ></td>
+           	</tr>
+           	</table ><br><br>
+  <li>What least number must be added to 1056, so that the sum is completely divisible by 23 ?</li>
+           	<table width="35%">
+        	<tr>
+        	<td>a. 2</td>
+        	<td> <input type="radio" name="r5" id="r5"  ></td>
+        	<td>b. 18 </td>
+        	<td> <input type="radio" name="r5"   ></td>
+        	</tr>
+        	<tr>
+        	<td>c. 3 </td>
+        	<td> <input type="radio" name="r5"   ></td>
+           	<td>d. 21 </td>
+           	<td><input type="radio" name="r5"  ></td>
+           	</tr>
+           	</table ><br><br>
+           	</ol>
+           	<ol>
+<h2>	Logic<br></h2>
+<h2>Direction to Solve</h2>
+<h3>Each problem consists of three statements. Based on the first two statements, the third statement may be true, false, or uncertain.</h3><br>
+	<li>Tanya is older than Eric.<br>
+				Cliff is older than Tanya.<br>
+				Eric is older than Cliff.<br>
+				If the first two statements are true, the third statement is</li>
+			<table width="35%" >
+        	<tr>
+        	<td>a. True</td>
+        	<td> <input type="radio" name="r6"   ></td>
+        	<td>b. False </td>
+        	<td> <input type="radio" name="r6" id="r6"  ></td>
+        	</tr>
+        	<tr>
+        	<td>c. Uncertain </td>
+        	<td> <input type="radio" name="r6"   ></td>
+           	</tr>
+           	</table><br><br>
+  <li>Blueberries cost more than strawberries.<br>
+				Blueberries cost less than raspberries.<br>
+				Raspberries cost more than strawberries and blueberries.<br>
+				If the first two statements are true, the third statement is</li>
+			<table width="35%">
+        	<tr>
+        	<td>a. True</td>
+        	<td> <input type="radio" name="r7" id="r7"  ></td>
+        	<td>b. False </td>
+        	<td> <input type="radio" name="r7"   ></td>
+        	</tr>
+        	<tr>
+        	<td>c. Uncertain </td>
+        	<td> <input type="radio" name="r7"   ></td>
+           	</tr>
+           	</table><br><br>
+
+  <li>All the trees in the park are flowering trees.<br>
+				Some of the trees in the park are dogwoods.<br>
+				All dogwoods in the park are flowering trees.<br>
+				If the first two statements are true, the third statement is</li>
+				<table width="35%">
+        	<tr>
+        	<td>a. True</td>
+        	<td> <input type="radio" name="r8" id="r8"  ></td>
+        	<td>b. False </td>
+        	<td> <input type="radio" name="r8"   ></td>
+        	</tr>
+        	<tr>
+        	<td>c. Uncertain </td>
+        	<td> <input type="radio" name="r8"   ></td>
+           	</tr>
+           	</table><br><br>
+	<li>Mara runs faster than Gail.<br>
+				Lily runs faster than Mara.<br>
+				Gail runs faster than Lily.<br>
+				If the first two statements are true, the third statement is</li>
+				<table width="35%">
+        	<tr>
+        	<td>a. True</td>
+        	<td> <input type="radio" name="r9"   ></td>
+        	<td>b. False </td>
+        	<td> <input type="radio" name="r9" id="r9"  ></td>
+        	</tr>
+        	<tr>
+        	<td>c. Uncertain </td>
+        	<td> <input type="radio" name="r9"   ></td>
+           	</tr>
+           	</table><br><br>
+	<li>Apartments in the Riverdale Manor cost less than apartments in The Gaslight Commons.<br>
+				Apartments in the Livingston Gate cost more than apartments in the The Gaslight Commons.<br>
+				Of the three apartment buildings, the Livingston Gate costs the most.<br>
+				If the first two statements are true, the third statement is</li><br>
+					<table width="35%">
+        	<tr>
+        	<td>a. True</td>
+        	<td> <input type="radio" name="r10" id="r10"  ></td>
+        	<td>b. False </td>
+        	<td> <input type="radio" name="r10"   ></td>
+        	</tr>
+        	<tr>
+        	<td>c. Uncertain </td>
+        	<td> <input type="radio" name="r10"  ></td>
+           	</tr>
+           	</table><br><br>
+            </ol>
+            <ol>
+<h2>Direction to Solve</h2>
+<h3>In each series, look for the degree and direction of change between the numbers. In other words, do the numbers increase or decrease, and by how much</h3>
+  <li>  Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?</li>
+          <table width="35%">
+          <tr>
+          <td>a. 1/3</td>
+          <td> <input type="radio" name="r11"  ></td>
+          <td>b. 1/8 </td>
+          <td> <input type="radio" name="r11" id="r11"  ></td>
+          </tr>
+          <tr>
+          <td>c. 2/8 </td>
+          <td> <input type="radio" name="r11"  ></td>
+            <td>d. 1/9 </td>
+            <td><input type="radio" name="r11"  ></td>
+            </tr>
+            </table ><br><br>
+  <li>Look at this series: 7, 10, 8, 11, 9, 12, ... What number should come next?</li>
+          <table width="35%">
+          <tr>
+          <td>a. 7</td>
+          <td> <input type="radio" name="r12"   ></td>
+          <td>b. 10 </td>
+          <td> <input type="radio" name="r12" id="r12"  ></td>
+          </tr>
+          <tr>
+          <td>c. 12 </td>
+          <td> <input type="radio" name="r12"   ></td>
+          <td>d. 13 </td>
+          <td><input type="radio" name="r12"   ></td>
+          </tr>
+          </table ><br><br>
+  <li>Look at this series: 36, 34, 30, 28, 24, ... What number should come next?</li>
+           <table width="35%">
+          <tr>
+          <td>a. 20</td>
+          <td> <input type="radio" name="r13"  ></td>
+          <td>b. 22 </td>
+          <td> <input type="radio" name="r13" id="r13"  ></td>
+          </tr>
+          <tr>
+          <td>c. 23 </td>
+          <td> <input type="radio" name="r13"  ></td>
+          <td>d. 26 </td>
+          <td><input type="radio" name="r13"   ></td>
+          </tr>
+          </table ><br><br>
+  <li>Look at this series: F2, __, D8, C16, B32, ... What number should fill the blank?</li>
+         <table width="35%">
+          <tr>
+          <td>a. A16</td>
+          <td> <input type="radio" name="r14"  ></td>
+          <td>b. G4 </td>
+          <td> <input type="radio" name="r14"  ></td>
+          </tr>
+          <tr>
+          <td>c. E4 </td>
+          <td> <input type="radio" name="r14" id="r14"  ></td>
+          <td>d. E3 </td>
+          <td><input type="radio" name="r14"   ></td>
+          </tr>
+          </table ><br><br>
+          
+  <li>Look at this series: 8, 43, 11, 41, __, 39, 17, ... What number should fill in the blank?</li>
+          <table width="35%">
+          <tr>
+          <td>a. 16</td>
+          <td> <input type="radio" name="r15"  ></td>
+          <td>b. 14 </td>
+          <td> <input type="radio" name="r15" id="r15"  ></td>
+          </tr>
+          <tr>
+          <td>c. 44 </td>
+          <td> <input type="radio" name="r15"  ></td>
+          <td>d. 53 </td>
+          <td><input type="radio" name="r15"   ></td>
+          </tr>
+          </table ><br><br>
+          </ol>
+          <ol>
+          <h2>Direction to Solve</h2>
+<h3>A good way to figure out the relationship in a given question is to make up a sentence that describes the relationship between the first two words. Then, try to use the same sentence to find out which of the answer choices completes the same relationship with the third word.</h3><br><br> 
+  <li>Odometer is to mileage as compass is to</li><br><br> 
+          <table width="35%">
+          <tr>
+          <td>a. speed</td>
+          <td> <input type="radio" name="r16"  ></td>
+          <td>b. direction </td>
+          <td> <input type="radio" name="r16" id="r16"  ></td>
+          </tr>
+          <tr>
+          <td>c. needle </td>
+          <td> <input type="radio" name="r16"  ></td>
+          <td>d. hiking </td>
+          <td><input type="radio" name="r16"   ></td>
+          </tr>
+          </table ><br><br>
+  <li>Marathon is to race as hibernation is to</li><br><br> 
+          <table width="35%">
+          <tr>
+          <td>a. bear</td>
+          <td> <input type="radio" name="r17"  ></td>
+          <td>b. winter </td>
+          <td> <input type="radio" name="r17"  ></td>
+          </tr>
+          <tr>
+          <td>c. dream </td>
+          <td> <input type="radio" name="r17"  ></td>
+          <td>d. sleep </td>
+          <td><input type="radio" name="r17" id="r17"  ></td>
+          </tr>
+          </table ><br><br>
+        </ol>
+        <ol>
+    <h2>Direction to Solve</h2>      
+ <h3> Choose the picture that would go in the empty box so that the two bottom pictures are related in the same way as the top two are related.</h3>
+<br><br> 
+<li></li>
+<img src="img/1.png" width="350px">  <br><br>  
+          <table width="35%">
+          <tr>
+          <td>a. 1</td>
+          <td> <input type="radio" name="r18"  ></td>
+          <td>b. 2</td>
+          <td> <input type="radio" name="r18" id="r18"  ></td>
+          </tr>
+          <tr>
+          <td>c. 3</td>
+          <td> <input type="radio" name="r18"  ></td>
+          <td>d. 4 </td>
+          <td><input type="radio" name="r18"   ></td>
+          </tr>
+          </table ><br><br>
+<li></li>
+<img src="img/2.png" width="350px" class="img-responsive"> <br><br>  
+          <table width="35%">
+          <tr>
+          <td>a. 1</td>
+          <td> <input type="radio" name="r19"  ></td>
+          <td>b. 2</td>
+          <td> <input type="radio" name="r19"  ></td>
+          </tr>
+          <tr>
+          <td>c. 3</td>
+          <td> <input type="radio" name="r19" id="r19"  ></td>
+          <td>d. 4 </td>
+          <td><input type="radio" name="r19"   ></td>
+          </tr>
+          </table ><br><br>
+<li></li>
+<img src="img/3.png" width="350px" class="img-responsive" > <br><br>  
+          <table width="35%">
+          <tr>
+          <td>a. 1</td>
+          <td> <input type="radio" name="r20"  ></td>
+          <td>b. 2</td>
+          <td> <input type="radio" name="r20"  ></td>
+          </tr>
+          <tr>
+          <td>c. 3</td>
+          <td> <input type="radio" name="r20" id="r20"  ></td>
+          <td>d. 4 </td>
+          <td><input type="radio" name="r20"   ></td>
+          </tr>
+          </table ><br><br>
+    <button onclick="notEmpty()" class="form-control" style="width:20%">SUBMIT</button>
+</ol>
+</div>
+
+	<div style="clear:both"></div>
+		<br>	
+		<div id="divfoot">
+				<p id="foot"><font color="white" size="4px">Omkar Building, 7th Floor,<br>
+				New Baneshwor, Kathmandu, Nepal<br>
+				Phone: 977 1 4785677<br>
+				Email: info@expertstraining.com<br>
+				&copy Copyright 2013-2014 | Experts Training</font></p>
+		</div>
+	</div>
+
+</body>
+</html>
