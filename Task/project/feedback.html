@@ -52,25 +52,24 @@ function notEmpty()
 }
 	
 </script>
-
 <style>
 #body{
-	margin-top: 50px;
-	float:left;
-	width:100%;
-	margin-right: 0px;
+	margin-top: 80px;
+	font-weight: bolder;
+}
+p{
+	text-align: justify;
+	font-size: 4;
 }
 /*div{
 	border:1px solid black;
 }*/
 #divfoot{
+	margin-top: 20px;
 	width: 100%;
 	background-color: black;
 	position: absolute;
 	left: 0px; 
-}
-#for{
-		font-weight: bolder;
 }
 #foot{
 	margin-top: 10px;
@@ -79,10 +78,6 @@ function notEmpty()
 }
 
 </style>
-<link rel="stylesheet" href="assets/CSS/bootstrap.min.css">
-<script src="assets/Js/jquery.min.js"></script>
-<script src="assets/Js/bootstrap.min.js"></script>
-
 </head>
 <body>
  <nav class="navbar navbar-inverse  navbar-fixed-top">
@@ -100,47 +95,50 @@ function notEmpty()
          <li ><a href="index.html"><b>Home</b></a></li>
         <li><a href="terms.html"><b>Terms & Conditions</b></a></li>
         <li><a href="pro.html"><b>Procces of accceptance</b></a></li>
-        <li><a href="feature.html"><b>Features</b></a></li>
+        <li ><a href="feature.html"><b>Features</b></a></li>
         <li class="active"><a href="#"><b>Feedback </b></a></li>
         <li><a href="test.html"><b>Test Yourself</b> </a></li>
       </ul>
     </div>
   </div>
 </nav>
-
-    <div id="body">
+	<div id="body">
         <div class="container">
+			
 			<div class="row">
-			<div class="col-md-3">
+			<div class="col-md-4">
 			</div>
-			<div class="col-md-6">
+		
+			<div class="col-md-5">
+				
 				<h2>Feedback</h2>
 				Name*:<br>
-					<input type="text" name="textname" id="name" class="form-control" style="width:365px; height:35px" ><br>
+					<input type="text" name="textname" id="name" class="form-control" style="width:80%" ><br>
 				Phone*:<br>
-					<input type="text" name="phone" id="phone" class="form-control" style="width:365px; height:35px"><br>
+					<input type="text" name="phone" id="phone" class="form-control" style="width:80%"><br>
 				E-Mail*:<br>
-					<input type="textbox" name="email" id="email" class="form-control" style="width:365px; height:35px"><br>
+					<input type="textbox" name="email" id="email" class="form-control" style="width:80%"><br>
 				Feedback*:<br>
-					<textarea rows=3 cols=50 id="feed" class="form-control" style="width:65%"></textarea><br>
+					<textarea rows=3 cols=50 id="feed" class="form-control" style="width:80%"></textarea><br>
 				<button onclick="notEmpty()" class="form-control" style="width:100px">SUBMIT</button>
 				<br>
 				</div>	
-				</div>
+			
 				<div class="col-md-3">
 			</div>
-			
+		
 		</div>
-		<div style="clear:both"></div>
-		<br>	
+
+	<div class="row">
 		<div id="divfoot">
 				<p id="foot"><font color="white" size="4px">Omkar Building, 7th Floor,<br>
 				New Baneshwor, Kathmandu, Nepal<br>
 				Phone: 977 1 4785677<br>
 				Email: info@expertstraining.com<br>
 				&copy Copyright 2013-2014 | Experts Training</font></p>
-		</div>
-	</div>
+				</div>
+			</div>
+			</div>
 
 </body>
 </html>
