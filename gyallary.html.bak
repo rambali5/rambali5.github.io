@@ -69,11 +69,8 @@ img
 	</script-->
 	<!-- End WOWSlider.com HEAD section -->
 	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
-	</script-->
-	<!-- End WOWSlider.com HEAD section -->
-	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
-	<link rel="stylesheet" type="text/css" href="engine6/style.css" />
-	<!--script type="text/javascript" src="engine6/jquery.js"></script-->
+	<link rel="stylesheet" type="text/css" href="engine5/style.css" />
+	<!--script type="text/javascript" src="engine5/jquery.js"></script-->
 	<!-- End WOWSlider.com HEAD section --></head>
 <body>
  <nav class="navbar navbar-inverse  navbar-fixed-top">
@@ -110,32 +107,30 @@ img
 		ghxzfhdfv
   		</div>
 	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
-	<div id="wowslider-container6">
+	<div id="wowslider-container5">
 	<div class="ws_images"><ul>
-		<li><img src="data6/images/100_7233.jpg" alt="100_7233" title="100_7233" id="wows6_0"/></li>
-		<li><img src="data6/images/100_7253.jpg" alt="100_7253" title="100_7253" id="wows6_1"/></li>
-		<li><img src="data6/images/10646800_10202648414918790_6435310333992165464_n.jpg" alt="10646800_10202648414918790_6435310333992165464_n" title="10646800_10202648414918790_6435310333992165464_n" id="wows6_2"/></li>
-		<li><img src="data6/images/10656110_357488917748575_1704458469_n.jpg" alt="10656110_357488917748575_1704458469_n" title="10656110_357488917748575_1704458469_n" id="wows6_3"/></li>
-		<li><img src="data6/images/10685263_357488837748583_384312798_n.jpg" alt="10685263_357488837748583_384312798_n" title="10685263_357488837748583_384312798_n" id="wows6_4"/></li>
-		<li><a href="http://wowslider.com/vf"><img src="data6/images/fasd.jpg" alt="full screen slider" title="full screen slider" id="wows6_5"/></a></li>
-		<li><img src="data6/images/fdgf.jpg" alt="fdgf" title="fdgf" id="wows6_6"/></li>
+		<li><img src="data5/images/100_7233.jpg" alt="100_7233" title="100_7233" id="wows5_0"/></li>
+		<li><img src="data5/images/100_7253.jpg" alt="100_7253" title="100_7253" id="wows5_1"/></li>
+		<li><img src="data5/images/10646800_10202648414918790_6435310333992165464_n.jpg" alt="10646800_10202648414918790_6435310333992165464_n" title="10646800_10202648414918790_6435310333992165464_n" id="wows5_2"/></li>
+		<li><img src="data5/images/10656110_357488917748575_1704458469_n.jpg" alt="10656110_357488917748575_1704458469_n" title="10656110_357488917748575_1704458469_n" id="wows5_3"/></li>
+		<li><img src="data5/images/10685263_357488837748583_384312798_n.jpg" alt="10685263_357488837748583_384312798_n" title="10685263_357488837748583_384312798_n" id="wows5_4"/></li>
+		<li><a href="http://wowslider.com/vf"><img src="data5/images/fasd.jpg" alt="full screen slider" title="full screen slider" id="wows5_5"/></a></li>
+		<li><img src="data5/images/fdgf.jpg" alt="fdgf" title="fdgf" id="wows5_6"/></li>
 	</ul></div>
 	<div class="ws_bullets"><div>
-		<a href="#" title="100_7233"><img src="data6/tooltips/100_7233.jpg" alt="100_7233"/>1</a>
-		<a href="#" title="100_7253"><img src="data6/tooltips/100_7253.jpg" alt="100_7253"/>2</a>
-		<a href="#" title="10646800_10202648414918790_6435310333992165464_n"><img src="data6/tooltips/10646800_10202648414918790_6435310333992165464_n.jpg" alt="10646800_10202648414918790_6435310333992165464_n"/>3</a>
-		<a href="#" title="10656110_357488917748575_1704458469_n"><img src="data6/tooltips/10656110_357488917748575_1704458469_n.jpg" alt="10656110_357488917748575_1704458469_n"/>4</a>
-		<a href="#" title="10685263_357488837748583_384312798_n"><img src="data6/tooltips/10685263_357488837748583_384312798_n.jpg" alt="10685263_357488837748583_384312798_n"/>5</a>
-		<a href="#" title="full screen slider"><img src="data6/tooltips/fasd.jpg" alt="full screen slider"/>6</a>
-		<a href="#" title="fdgf"><img src="data6/tooltips/fdgf.jpg" alt="fdgf"/>7</a>
+		<a href="#" title="100_7233"><img src="data5/tooltips/100_7233.jpg" alt="100_7233"/>1</a>
+		<a href="#" title="100_7253"><img src="data5/tooltips/100_7253.jpg" alt="100_7253"/>2</a>
+		<a href="#" title="10646800_10202648414918790_6435310333992165464_n"><img src="data5/tooltips/10646800_10202648414918790_6435310333992165464_n.jpg" alt="10646800_10202648414918790_6435310333992165464_n"/>3</a>
+		<a href="#" title="10656110_357488917748575_1704458469_n"><img src="data5/tooltips/10656110_357488917748575_1704458469_n.jpg" alt="10656110_357488917748575_1704458469_n"/>4</a>
+		<a href="#" title="10685263_357488837748583_384312798_n"><img src="data5/tooltips/10685263_357488837748583_384312798_n.jpg" alt="10685263_357488837748583_384312798_n"/>5</a>
+		<a href="#" title="full screen slider"><img src="data5/tooltips/fasd.jpg" alt="full screen slider"/>6</a>
+		<a href="#" title="fdgf"><img src="data5/tooltips/fdgf.jpg" alt="fdgf"/>7</a>
 	</div></div><span class="wsl"><a href="http://wowslider.com/vu">image carousel</a> by WOWSlider.com v7.3</span>
 	<div class="ws_shadow"></div>
 	</div>	
-	<script type="text/javascript" src="engine6/wowslider.js"></script>
-	<script type="text/javascript" src="engine6/script.js"></script>
+	<script type="text/javascript" src="engine5/wowslider.js"></script>
+	<script type="text/javascript" src="engine5/script.js"></script>
 	<!-- End WOWSlider.com BODY section -->
-	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
-	
 	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
 	
 	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
